@@ -20,7 +20,7 @@ contract Voting{
 
     }
 
-    event candCreated( uint indexed id,string name,address address_ ,uint   voteCount);//save data on the blockchain
+    event candCreated( uint indexed id,string name,address address_ );//save data on the blockchain
     address[] public addressOfCandidate;//array of candidates
 
     mapping(address=>Candidate) public candidates;
